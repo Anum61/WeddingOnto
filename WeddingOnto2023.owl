@@ -1,0 +1,3548 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/3/weddingOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2023/3/weddingOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2023/3/weddingOntology"/>
+    <Prefix name="wo" IRI="http://www.semanticweb.org/user/ontologies/2023/3/weddingOntology#"/>
+    <Prefix name="dul" IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rss" IRI="http://www.ontologydesignpatterns.org/cp/owl/recurrentsituationseries.owl#"/>
+    <Prefix name="seo" IRI="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/FoodService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Menu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dul:TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaratWeddingHotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boutique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BridalShower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrideFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CeremonyRituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chauthi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costumes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DastarBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecorOrganizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dholki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dowry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dozokhi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DressBride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DressDesigner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DressGroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DuaeKhair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventOrganization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodAndCateringCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodServingStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroomFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GuestOfHonor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabarBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImamMufti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jannh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JolBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maklawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mangni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarriageProposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masjid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mayun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mehndi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mehr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusicBand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nikah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nisbat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhotoStudio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostWeddingEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreWeddingEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreWeddingRituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RasmeHinna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rukhsati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sadaq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saloon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saloonk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SehraBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubtan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waddah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waleema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaleemaHotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingCards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingCeremony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingCharges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingDecorations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingPlanner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingRefreshment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingTheme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/scholarlydata/ontology/conference-ontology.owlOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Adopted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AreDistributedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ArrangedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ArrangedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BeginningOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ConductedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Conducts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DealsWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DecidedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Decides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EntranceAreaTowards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GivesServices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasCompanyRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasInterval"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasOrganizationRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasOrganizedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasRituals"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSubEvents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasVariety"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IncludesSubevents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InvitedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InvitedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsArrangedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsBeginningOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsDaughterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsDoneAfter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsDoneBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsFourthDayAfter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsGiftedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsGivenAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsGivenBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsHostedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsLastEventOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsOwnedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsOwnerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsSonOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsThrownBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OccursBefore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Organized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OrganizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OrganizedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PaidBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PaidTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Performed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PerformedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PerformedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Planned"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PlannedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PresentedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Provides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wears"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/givenName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CostumeColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CostumeItems"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DecorCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EventDay"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FoodItems"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HotelCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Includes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NikahCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NikahVenue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PerformanceCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PlannerCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Profession"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Properties"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SingingCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Photo/VideographyCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Band1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BaratHotel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BaratHotelCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BatairMasalaAndBeefChapliKabab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bhangra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlackAndWhite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boutique1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boutique2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boutique3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brand1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BridalAccessories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BridalJewellary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BridalPortraits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BridalShoes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bride1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BrideDresses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ceremony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#City1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#City2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cocktail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Costume1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Costume2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crockery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecorCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecorOrganizer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecorOrganizer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Designer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dholki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoodhPilai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DressB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DressDesigner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DressDesignerCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DressG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DressMayun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dresses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DronePhotography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ElectronicAppliances"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventOrganization1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventOrganization2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventOrganization3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventOrganization4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventPhotographer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventPhotographer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventPhotographer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventPhotographer4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventPlannerCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventSaloon1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventSaloon2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventSaloon4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventSinger1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventSinger2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EventW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Family1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Family2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feasting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FirdousAshiqAwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FloralArrangements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodAndCateringCompany1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodAndCateringCompany2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodAndCateringCompany3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodAndCateringCompany4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Furniture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GhutnaPakrai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Groom1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JootaChupai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KoreanchickenAndLime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mehndi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MehrAmount1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mufti1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MurghPulao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nikah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NikahCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organizer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organizer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organizer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Performance1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Performance2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Performance3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Performer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhotoBoothes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photographer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photographer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photographer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photographer4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhotographyAndVideoGraphyCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planner2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PlatedMeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ritual1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ritual2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saloon1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saloon2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saloon3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saloon4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saloon5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaloonCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SingingCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StirFriedRice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheBuffet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Theme1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Theme2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Waleema"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WaleemaHotel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wedding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eventSaloon3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/dul:TimeInterval"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Banoor"/>
+        <Class IRI="#Bride"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bride"/>
+        <Class IRI="#Saloonk"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dozokhi"/>
+        <Class IRI="#Mehndi"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HabarBandi"/>
+        <Class IRI="#Mangni"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Jannh"/>
+        <Class IRI="#Wedding"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mangni"/>
+        <Class IRI="#Nisbat"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mehndi"/>
+        <Class IRI="#RasmeHinna"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mehr"/>
+        <Class IRI="#Sadaq"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Organisation"/>
+        <Class IRI="#Organization"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Waddah"/>
+        <Class IRI="#Wedding"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://schema.org/City"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/EventVenue"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banoor"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barat"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaratWeddingHotel"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boutique"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BridalShower"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bride"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrideFamily"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CeremonyRituals"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chauthi"/>
+        <Class IRI="#PostWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DastarBandi"/>
+        <Class IRI="#Barat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecorOrganizer"/>
+        <Class IRI="#Organizer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dholki"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dozokhi"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DressBride"/>
+        <Class IRI="#Costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DressDesigner"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DressGroom"/>
+        <Class IRI="#Costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DuaeKhair"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventOrganization"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodAndCateringCompany"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodServingStyle"/>
+        <Class IRI="http://schema.org/FoodService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friends"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Groom"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroomFamily"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GuestOfHonor"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guests"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabarBandi"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImamMufti"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jannh"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JolBandi"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maklawa"/>
+        <Class IRI="#PostWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mangni"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarriageProposal"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masjid"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mayun"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mehndi"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nikah"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nisbat"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organisation"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performers"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhotoStudio"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photographer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostWeddingEvents"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreWeddingEvents"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreWeddingRituals"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RasmeHinna"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rukhsati"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saloon"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saloonk"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SehraBandi"/>
+        <Class IRI="#Barat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singers"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubtan"/>
+        <Class IRI="#Mayun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waddah"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waleema"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaleemaHotel"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeddingCeremony"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeddingPlanner"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeddingRefreshment"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/scholarlydata/ontology/conference-ontology.owlOrganisation"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#MusicBand"/>
+        <NamedIndividual IRI="#Band1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="#Barat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaratWeddingHotel"/>
+        <NamedIndividual IRI="#BaratHotel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#BaratHotelCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="#BatairMasalaAndBeefChapliKabab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CeremonyRituals"/>
+        <NamedIndividual IRI="#Bhangra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photography"/>
+        <NamedIndividual IRI="#BlackAndWhite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boutique"/>
+        <NamedIndividual IRI="#Boutique1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boutique"/>
+        <NamedIndividual IRI="#Boutique2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boutique"/>
+        <NamedIndividual IRI="#Boutique3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Brand"/>
+        <NamedIndividual IRI="#Brand1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#BridalAccessories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#BridalJewellary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photography"/>
+        <NamedIndividual IRI="#BridalPortraits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#BridalShoes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bride"/>
+        <NamedIndividual IRI="#Bride1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#BrideDresses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/FoodService"/>
+        <NamedIndividual IRI="#Catering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nikah"/>
+        <NamedIndividual IRI="#Ceremony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/City"/>
+        <NamedIndividual IRI="#City1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/City"/>
+        <NamedIndividual IRI="#City2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodServingStyle"/>
+        <NamedIndividual IRI="#Cocktail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="#Company1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="#Company2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="#Company3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="#Company4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="#Company5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costumes"/>
+        <NamedIndividual IRI="#Costume1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costumes"/>
+        <NamedIndividual IRI="#Costume2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Crockery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingDecorations"/>
+        <NamedIndividual IRI="#Decor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#DecorCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#DecorOrganizer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#DecorOrganizer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DressDesigner"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CeremonyRituals"/>
+        <NamedIndividual IRI="#Dholki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CeremonyRituals"/>
+        <NamedIndividual IRI="#DoodhPilai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DressBride"/>
+        <NamedIndividual IRI="#DressB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#DressDesigner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#DressDesignerCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DressGroom"/>
+        <NamedIndividual IRI="#DressG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mayun"/>
+        <NamedIndividual IRI="#DressMayun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Dresses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photography"/>
+        <NamedIndividual IRI="#DronePhotography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#ElectronicAppliances"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chauthi"/>
+        <NamedIndividual IRI="#EventC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Maklawa"/>
+        <NamedIndividual IRI="#EventK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mehndi"/>
+        <NamedIndividual IRI="#EventM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventOrganization1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventOrganization2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventOrganization3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventOrganization4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventPhotographer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventPhotographer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventPhotographer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventPhotographer4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#EventPlannerCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventSaloon1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventSaloon2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventSaloon4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventSinger1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#EventSinger2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waleema"/>
+        <NamedIndividual IRI="#EventW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrideFamily"/>
+        <NamedIndividual IRI="#Family1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GroomFamily"/>
+        <NamedIndividual IRI="#Family2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodServingStyle"/>
+        <NamedIndividual IRI="#Feasting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GuestOfHonor"/>
+        <NamedIndividual IRI="#FirdousAshiqAwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingDecorations"/>
+        <NamedIndividual IRI="#FloralArrangements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#FoodCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Furniture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CeremonyRituals"/>
+        <NamedIndividual IRI="#GhutnaPakrai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groom"/>
+        <NamedIndividual IRI="#Groom1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CeremonyRituals"/>
+        <NamedIndividual IRI="#JootaChupai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="#KoreanchickenAndLime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mehr"/>
+        <NamedIndividual IRI="#MehrAmount1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ImamMufti"/>
+        <NamedIndividual IRI="#Mufti1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="#MurghPulao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="#Nikah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#NikahCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EventOrganization"/>
+        <NamedIndividual IRI="#Organization8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DecorOrganizer"/>
+        <NamedIndividual IRI="#Organizer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DecorOrganizer"/>
+        <NamedIndividual IRI="#Organizer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DecorOrganizer"/>
+        <NamedIndividual IRI="#Organizer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Performances"/>
+        <NamedIndividual IRI="#Performance1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Performances"/>
+        <NamedIndividual IRI="#Performance2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Performances"/>
+        <NamedIndividual IRI="#Performance3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Performers"/>
+        <NamedIndividual IRI="#Performer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photography"/>
+        <NamedIndividual IRI="#PhotoBoothes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="#Photographer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="#Photographer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="#Photographer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="#Photographer4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#PhotographyAndVideoGraphyCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingPlanner"/>
+        <NamedIndividual IRI="#Planner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingPlanner"/>
+        <NamedIndividual IRI="#Planner2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodServingStyle"/>
+        <NamedIndividual IRI="#PlatedMeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarriageProposal"/>
+        <NamedIndividual IRI="#Ritual1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mangni"/>
+        <NamedIndividual IRI="#Ritual2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CeremonyRituals"/>
+        <NamedIndividual IRI="#Salami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="#Saloon1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="#Saloon2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="#Saloon3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="#Saloon4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="#Saloon5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#SaloonCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singers"/>
+        <NamedIndividual IRI="#Singer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singers"/>
+        <NamedIndividual IRI="#Singer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singers"/>
+        <NamedIndividual IRI="#Singer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingCharges"/>
+        <NamedIndividual IRI="#SingingCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="#StirFriedRice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotoStudio"/>
+        <NamedIndividual IRI="#Studio1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotoStudio"/>
+        <NamedIndividual IRI="#Studio2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotoStudio"/>
+        <NamedIndividual IRI="#Studio3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotoStudio"/>
+        <NamedIndividual IRI="#Studio4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotoStudio"/>
+        <NamedIndividual IRI="#Studio5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="#Sweets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodServingStyle"/>
+        <NamedIndividual IRI="#TheBuffet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingTheme"/>
+        <NamedIndividual IRI="#Theme1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeddingTheme"/>
+        <NamedIndividual IRI="#Theme2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="#Waleema"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WaleemaHotel"/>
+        <NamedIndividual IRI="#WaleemaHotel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="#Wedding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="#eventSaloon3"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#InvitedBy"/>
+        <NamedIndividual IRI="#Band1"/>
+        <NamedIndividual IRI="#Family2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#BaratHotelCharges"/>
+        <NamedIndividual IRI="#Planner1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#BaratHotelCharges"/>
+        <NamedIndividual IRI="#Planner2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Boutique1"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Boutique2"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Boutique3"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsOwnedBy"/>
+        <NamedIndividual IRI="#Brand1"/>
+        <NamedIndividual IRI="#DressDesigner1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsDaughterOf"/>
+        <NamedIndividual IRI="#Bride1"/>
+        <NamedIndividual IRI="#Family1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ArrangedFor"/>
+        <NamedIndividual IRI="#Company1"/>
+        <NamedIndividual IRI="#Barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Company2"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Company4"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <NamedIndividual IRI="#Costume1"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <NamedIndividual IRI="#Costume2"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#DecorCharges"/>
+        <NamedIndividual IRI="#Organizer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#DecorCharges"/>
+        <NamedIndividual IRI="#Organizer2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <NamedIndividual IRI="#Designer1"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <NamedIndividual IRI="#DressB"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#DressDesignerCharges"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <NamedIndividual IRI="#DressG"/>
+        <NamedIndividual IRI="#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PlannedBy"/>
+        <NamedIndividual IRI="#EventM"/>
+        <NamedIndividual IRI="#Planner2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#EventPlannerCharges"/>
+        <NamedIndividual IRI="#Planner1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#EventPlannerCharges"/>
+        <NamedIndividual IRI="#Planner2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#InvitedBy"/>
+        <NamedIndividual IRI="#FirdousAshiqAwan"/>
+        <NamedIndividual IRI="#Family1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#FoodCharges"/>
+        <NamedIndividual IRI="#Company1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSonOf"/>
+        <NamedIndividual IRI="#Groom1"/>
+        <NamedIndividual IRI="#Family2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsGiftedTo"/>
+        <NamedIndividual IRI="#MehrAmount1"/>
+        <NamedIndividual IRI="#Bride1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Conducts"/>
+        <NamedIndividual IRI="#Mufti1"/>
+        <NamedIndividual IRI="#Nikah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#NikahCharges"/>
+        <NamedIndividual IRI="#Mufti1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization1"/>
+        <NamedIndividual IRI="#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization2"/>
+        <NamedIndividual IRI="#Barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization2"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization3"/>
+        <NamedIndividual IRI="#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization3"/>
+        <NamedIndividual IRI="#Dholki"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Organization5"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization6"/>
+        <NamedIndividual IRI="#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Organization7"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organization8"/>
+        <NamedIndividual IRI="#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organizer1"/>
+        <NamedIndividual IRI="#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Organized"/>
+        <NamedIndividual IRI="#Organizer2"/>
+        <NamedIndividual IRI="#FloralArrangements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerformedBy"/>
+        <NamedIndividual IRI="#Performance2"/>
+        <NamedIndividual IRI="#Performer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerformedBy"/>
+        <NamedIndividual IRI="#Performance3"/>
+        <NamedIndividual IRI="#Singer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PerformedBy"/>
+        <NamedIndividual IRI="#Performance3"/>
+        <NamedIndividual IRI="#Singer2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Performed"/>
+        <NamedIndividual IRI="#Performer1"/>
+        <NamedIndividual IRI="#Performance2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#PhotographyAndVideoGraphyCharges"/>
+        <NamedIndividual IRI="#Photographer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#PhotographyAndVideoGraphyCharges"/>
+        <NamedIndividual IRI="#Photographer2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#PhotographyAndVideoGraphyCharges"/>
+        <NamedIndividual IRI="#Photographer3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#PhotographyAndVideoGraphyCharges"/>
+        <NamedIndividual IRI="#Photographer4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Planned"/>
+        <NamedIndividual IRI="#Planner1"/>
+        <NamedIndividual IRI="#Barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Planned"/>
+        <NamedIndividual IRI="#Planner2"/>
+        <NamedIndividual IRI="#Barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Planned"/>
+        <NamedIndividual IRI="#Planner2"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBeginningOf"/>
+        <NamedIndividual IRI="#Ritual1"/>
+        <NamedIndividual IRI="#Wedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GivesServices"/>
+        <NamedIndividual IRI="#Saloon1"/>
+        <NamedIndividual IRI="#Bride1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GivesServices"/>
+        <NamedIndividual IRI="#Saloon2"/>
+        <NamedIndividual IRI="#Bride1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#SaloonCharges"/>
+        <NamedIndividual IRI="#Saloon1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#SaloonCharges"/>
+        <NamedIndividual IRI="#Saloon2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Performed"/>
+        <NamedIndividual IRI="#Singer1"/>
+        <NamedIndividual IRI="#Performance3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Performed"/>
+        <NamedIndividual IRI="#Singer2"/>
+        <NamedIndividual IRI="#Performance3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Performed"/>
+        <NamedIndividual IRI="#Singer3"/>
+        <NamedIndividual IRI="#Performance3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#SingingCharges"/>
+        <NamedIndividual IRI="#Singer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaidTo"/>
+        <NamedIndividual IRI="#SingingCharges"/>
+        <NamedIndividual IRI="#Singer3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Studio4"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <NamedIndividual IRI="#Studio5"/>
+        <NamedIndividual IRI="#City1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Band1"/>
+        <Literal>Uk Sahara&apos;s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#BaratHotelCharges"/>
+        <Literal>RosaBalancaClub</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HotelCharges"/>
+        <NamedIndividual IRI="#BaratHotelCharges"/>
+        <Literal>150Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Boutique1"/>
+        <Literal>Dress Designer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Boutique2"/>
+        <Literal>Safina Boutique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Boutique3"/>
+        <Literal>Vogue Men</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Brand1"/>
+        <Literal>FarazMannan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Bride1"/>
+        <Literal>UnzilaMehmood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NikahVenue"/>
+        <NamedIndividual IRI="#Ceremony"/>
+        <Literal>Masjid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#City1"/>
+        <Literal>Sargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Company1"/>
+        <Literal>Dynasty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Company2"/>
+        <Literal>EventsByPash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Company3"/>
+        <Literal>TimeandTasteCatering&amp;EventManagementComapny</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoodItems"/>
+        <NamedIndividual IRI="#Company3"/>
+        <Literal>BatairMasala, KoreanChicken, MurghPalao,MuttonShahiQoorma,,StirFriedRice and Sweets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Company4"/>
+        <Literal>FoodstreetSargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Company5"/>
+        <Literal>sahabJeeTentAndCateringCompany</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CostumeItems"/>
+        <NamedIndividual IRI="#Costume1"/>
+        <Literal>Lehnga,Sharara,Gharara,Maxi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CostumeItems"/>
+        <NamedIndividual IRI="#Costume2"/>
+        <Literal>PantCoat,Kurta,Sherwani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DecorCharges"/>
+        <NamedIndividual IRI="#DecorCharges"/>
+        <Literal>60-80 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#DecorOrganizer1"/>
+        <Literal>AhsanHabib</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#DecorOrganizer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#DecorOrganizer2"/>
+        <Literal>Siam Flower Shop Sargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#DecorOrganizer2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Designer1"/>
+        <Literal>FarazMannan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CostumeItems"/>
+        <NamedIndividual IRI="#DressB"/>
+        <Literal>Lenhga,Maxi,Frock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#DressDesigner1"/>
+        <Literal>FarazManan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#DressDesigner1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Includes"/>
+        <NamedIndividual IRI="#DressDesignerCharges"/>
+        <Literal>BrideDresses and Groom Dresses Charges</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CostumeItems"/>
+        <NamedIndividual IRI="#DressG"/>
+        <Literal>Sherwani, WaistCoat pant, Kurta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CostumeColor"/>
+        <NamedIndividual IRI="#DressMayun"/>
+        <Literal>Yellow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EventDay"/>
+        <NamedIndividual IRI="#EventC"/>
+        <Literal>FourthDayAfterWeddingCeremony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EventDay"/>
+        <NamedIndividual IRI="#EventK"/>
+        <Literal>EventAfterWaleema</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Includes"/>
+        <NamedIndividual IRI="#EventM"/>
+        <Literal>Henna on leaf on birde&apos;s plam, sweets and oil on bride&apos;s hair</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventOrganization1"/>
+        <Literal>KsConcepts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventOrganization1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventOrganization2"/>
+        <Literal>QasimYarTiwanaDecor/EventManager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventOrganization2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventOrganization3"/>
+        <Literal>3StarEventPlanner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventOrganization3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventOrganization4"/>
+        <Literal>CharminarEventComplex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventOrganization4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventPhotographer1"/>
+        <Literal>AhmadFayyaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventPhotographer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventPhotographer2"/>
+        <Literal>OsmanPervaizMughal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventPhotographer2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventPhotographer3"/>
+        <Literal>Mobeen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventPhotographer3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventPhotographer4"/>
+        <Literal>AhmadFayyaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventPhotographer4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlannerCharges"/>
+        <NamedIndividual IRI="#EventPlannerCharges"/>
+        <Literal>40Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventSaloon1"/>
+        <Literal>WinceByNadia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventSaloon1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventSaloon2"/>
+        <Literal>Depilex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventSaloon2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventSaloon4"/>
+        <Literal>SplendourSignatureSalon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventSaloon4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventSinger1"/>
+        <Literal>AtifAslam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventSinger1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#EventSinger2"/>
+        <Literal>RahatFatehAliKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#EventSinger2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EventDay"/>
+        <NamedIndividual IRI="#EventW"/>
+        <Literal>LastWeddingEvent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Family1"/>
+        <Literal>MasterTiles owner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Family2"/>
+        <Literal>Jalalson&apos;s Owner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany1"/>
+        <Literal>DynastyEventComplex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany2"/>
+        <Literal>EventsByPash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany3"/>
+        <Literal>FoodStreetSargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany4"/>
+        <Literal>SahabJeTentAndCateringServices</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#FoodAndCateringCompany4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Groom1"/>
+        <Literal>MoazamKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Amount"/>
+        <NamedIndividual IRI="#MehrAmount1"/>
+        <Literal>5Lac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Mufti1"/>
+        <Literal>MolanaTariqJameel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NikahCharges"/>
+        <NamedIndividual IRI="#NikahCharges"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization1"/>
+        <Literal>KsConcepts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DecorCharges"/>
+        <NamedIndividual IRI="#Organization1"/>
+        <Literal>15-20Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization2"/>
+        <Literal>MalimzayEvents</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization3"/>
+        <Literal>QasimYarTiwanaDecor/EventManager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DecorCharges"/>
+        <NamedIndividual IRI="#Organization3"/>
+        <Literal>15-20Miilion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization4"/>
+        <Literal>imaginative wedding and event planner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization5"/>
+        <Literal>3StarEventPlanner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#Organization5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization6"/>
+        <Literal>Shahbaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization7"/>
+        <Literal>CharminarEventComplex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organization8"/>
+        <Literal>Ihsan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organizer1"/>
+        <Literal>Ahsan Habib</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organizer2"/>
+        <Literal>Sundas Mustafa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Organizer3"/>
+        <Literal>Siam FlolarShop Sargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Performance1"/>
+        <Literal>Fire Show</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Performance2"/>
+        <Literal>Gymnastics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PerformanceCharges"/>
+        <NamedIndividual IRI="#Performance2"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Performance3"/>
+        <Literal>Singing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PerformanceCharges"/>
+        <NamedIndividual IRI="#Performance3"/>
+        <Literal>10.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Performer1"/>
+        <Literal>TurkishGymnastics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Photographer1"/>
+        <Literal>Ahmad Fiaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Photographer2"/>
+        <Literal>IrfanAhson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Photographer3"/>
+        <Literal>Mobeen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Photographer4"/>
+        <Literal>OsmanPervaizMughal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Planner1"/>
+        <Literal>NattyAika</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Planner2"/>
+        <Literal>SanaJunaidKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Includes"/>
+        <NamedIndividual IRI="#Ritual2"/>
+        <Literal>EngagementRing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Saloon1"/>
+        <Literal>ShazrayKhalidSaloon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Saloon2"/>
+        <Literal>WinceByNadia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Saloon3"/>
+        <Literal>Depilex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Saloon4"/>
+        <Literal>M.DOTBEAUTYSALON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Saloon5"/>
+        <Literal>SplendourSignatureSalonOfficial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Singer1"/>
+        <Literal>AtifAslam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SingingCharges"/>
+        <NamedIndividual IRI="#Singer1"/>
+        <Literal>5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Singer2"/>
+        <Literal>Ibrar Ul Haq</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Singer3"/>
+        <Literal>Rahat Fateh Ali Khan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SingingCharges"/>
+        <NamedIndividual IRI="#Singer3"/>
+        <Literal>5.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SingingCharges"/>
+        <NamedIndividual IRI="#SingingCharges"/>
+        <Literal>10.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Studio1"/>
+        <Literal>Ahmad Fiaz Photography</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Photo/VideographyCharges"/>
+        <NamedIndividual IRI="#Studio1"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Studio2"/>
+        <Literal>MobeenStudios</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Photo/VideographyCharges"/>
+        <NamedIndividual IRI="#Studio2"/>
+        <Literal>2Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Studio3"/>
+        <Literal>OsmanPervaizMughalShoots</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Photo/VideographyCharges"/>
+        <NamedIndividual IRI="#Studio3"/>
+        <Literal>3-3.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Studio4"/>
+        <Literal>Al Saba Studio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Studio5"/>
+        <Literal>Saeed Sayal photography</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Properties"/>
+        <NamedIndividual IRI="#Sweets"/>
+        <Literal>Wrapped in 24 Karat Gold Leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Theme1"/>
+        <Literal>FloatingDreams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DecorCharges"/>
+        <NamedIndividual IRI="#Theme1"/>
+        <Literal>10Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#Theme2"/>
+        <Literal>FreshFolarDecor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="#eventSaloon3"/>
+        <Literal>M.DotBeautySalon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="#eventSaloon3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Adopted"/>
+        <Class IRI="#DecorOrganizer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <Class IRI="#Costumes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AreDistributedBy"/>
+        <Class IRI="#WeddingCards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ArrangedBy"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ArrangedBy"/>
+        <Class IRI="#BaratWeddingHotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ArrangedBy"/>
+        <Class IRI="#WaleemaHotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ArrangedFor"/>
+        <Class IRI="#FoodAndCateringCompany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BeginningOf"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ConductedIn"/>
+        <Class IRI="#Nikah"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Conducts"/>
+        <Class IRI="#ImamMufti"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Contains"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DealsWith"/>
+        <Class IRI="#PhotoStudio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DecidedBy"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Decides"/>
+        <Class IRI="#FoodAndCateringCompany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EntranceAreaTowards"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GivesServices"/>
+        <Class IRI="#Saloon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasCompanyRating"/>
+        <Class IRI="#FoodAndCateringCompany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasInterval"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasOrganizationRating"/>
+        <Class IRI="#EventOrganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasOrganizedIn"/>
+        <Class IRI="#Barat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasRituals"/>
+        <Class IRI="#Barat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSubEvents"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasVariety"/>
+        <Class IRI="http://schema.org/FoodService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IncludesSubevents"/>
+        <Class IRI="#PostWeddingEvents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InvitedBy"/>
+        <Class IRI="#MusicBand"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InvitedIn"/>
+        <Class IRI="#GuestOfHonor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsArrangedBy"/>
+        <Class IRI="#WeddingRefreshment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsBeginningOf"/>
+        <Class IRI="#MarriageProposal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsBeginningOf"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsDaughterOf"/>
+        <Class IRI="#Bride"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsDoneAfter"/>
+        <Class IRI="#Mangni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsDoneBy"/>
+        <Class IRI="#Photography"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsFourthDayAfter"/>
+        <Class IRI="#Chauthi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsGiftedTo"/>
+        <Class IRI="#Mehr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsGivenAt"/>
+        <Class IRI="#Ring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsGivenBy"/>
+        <Class IRI="#Dowry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsHostedBy"/>
+        <Class IRI="#DuaeKhair"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsLastEventOf"/>
+        <Class IRI="#Waleema"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsOwnerOf"/>
+        <Class IRI="#DressDesigner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <Class IRI="#Boutique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <Class IRI="#FoodAndCateringCompany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <Class IRI="#PhotoStudio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <Class IRI="#Saloon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSonOf"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsThrownBy"/>
+        <Class IRI="#BridalShower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OccursBefore"/>
+        <Class IRI="#Maklawa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Organized"/>
+        <Class IRI="#EventOrganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OrganizedBy"/>
+        <Class IRI="#WeddingDecorations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OrganizedIn"/>
+        <Class IRI="#Barat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OrganizedIn"/>
+        <Class IRI="#Waleema"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PaidBy"/>
+        <Class IRI="#WeddingCharges"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PaidTo"/>
+        <Class IRI="#WeddingCharges"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pays"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Performed"/>
+        <Class IRI="#Performers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Performed"/>
+        <Class IRI="#Singers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PerformedBy"/>
+        <Class IRI="#Performances"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PerformedIn"/>
+        <Class IRI="#CeremonyRituals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Planned"/>
+        <Class IRI="#WeddingPlanner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PlannedBy"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PlannedBy"/>
+        <Class IRI="#Barat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PlannedBy"/>
+        <Class IRI="#Mehndi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PresentedBy"/>
+        <Class IRI="#Bari"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Provides"/>
+        <Class IRI="http://schema.org/FoodService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wears"/>
+        <Class IRI="http://schema.org/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wears"/>
+        <Class IRI="#Bride"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wears"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Adopted"/>
+        <Class IRI="#WeddingTheme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AreDesignedBy"/>
+        <Class IRI="#DressDesigner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AreDistributedBy"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AreDistributedBy"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ArrangedBy"/>
+        <Class IRI="#WeddingPlanner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ArrangedFor"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ConductedIn"/>
+        <Class IRI="#Masjid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conducts"/>
+        <Class IRI="#Nikah"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contains"/>
+        <Class IRI="#Barat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contains"/>
+        <Class IRI="#Nikah"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contains"/>
+        <Class IRI="#Waleema"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contains"/>
+        <Class IRI="#WeddingRefreshment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DealsWith"/>
+        <Class IRI="#Photography"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DecidedBy"/>
+        <Class IRI="#WeddingPlanner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Decides"/>
+        <Class IRI="http://schema.org/Menu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EntranceAreaTowards"/>
+        <Class IRI="#BaratWeddingHotel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GivesServices"/>
+        <Class IRI="#Bride"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#Dholki"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#Dozokhi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#JolBandi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#Mayun"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#Mehndi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#RasmeHinna"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasCompanyRating"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasInterval"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/dul:TimeInterval"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasOrganizationRating"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasOrganizedIn"/>
+        <Class IRI="#BaratWeddingHotel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasRituals"/>
+        <Class IRI="#DastarBandi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasRituals"/>
+        <Class IRI="#SehraBandi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSubEvents"/>
+        <Class IRI="#PostWeddingEvents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSubEvents"/>
+        <Class IRI="#PreWeddingEvents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSubEvents"/>
+        <Class IRI="#PreWeddingRituals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSubEvents"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasVariety"/>
+        <Class IRI="#FoodServingStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#DuaeKhair"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#Mangni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#MarriageProposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#Nisbat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IncludesSubevents"/>
+        <Class IRI="#Chauthi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IncludesSubevents"/>
+        <Class IRI="#Maklawa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IncludesSubevents"/>
+        <Class IRI="#Nikah"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IncludesSubevents"/>
+        <Class IRI="#WeddingRefreshment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InvitedBy"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InvitedIn"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsArrangedBy"/>
+        <Class IRI="#FoodAndCateringCompany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsBeginningOf"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsDaughterOf"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsDoneAfter"/>
+        <Class IRI="#MarriageProposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsDoneBy"/>
+        <Class IRI="#Photographer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsFourthDayAfter"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsGiftedTo"/>
+        <Class IRI="#Bride"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsGivenAt"/>
+        <Class IRI="#Mangni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsGivenBy"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsHostedBy"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsHostedBy"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsLastEventOf"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsOwnerOf"/>
+        <Class IRI="http://schema.org/Brand"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsSituatedIn"/>
+        <Class IRI="http://schema.org/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsSonOf"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsThrownBy"/>
+        <Class IRI="#Friends"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OccursBefore"/>
+        <Class IRI="#Chauthi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Organized"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OrganizedBy"/>
+        <Class IRI="#DecorOrganizer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OrganizedIn"/>
+        <Class IRI="#BaratWeddingHotel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OrganizedIn"/>
+        <Class IRI="#WaleemaHotel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PaidBy"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PaidBy"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PaidTo"/>
+        <Class IRI="http://schema.org/Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Pays"/>
+        <Class IRI="#Mehr"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Performed"/>
+        <Class IRI="#Performances"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PerformedBy"/>
+        <Class IRI="#Performers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PerformedBy"/>
+        <Class IRI="#Singers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PerformedIn"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Planned"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PlannedBy"/>
+        <Class IRI="#WeddingPlanner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PresentedBy"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Provides"/>
+        <Class IRI="#FoodServingStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wears"/>
+        <Class IRI="#Costumes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Class IRI="#Performances"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Amount"/>
+        <Class IRI="#Mehr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CostumeColor"/>
+        <Class IRI="#Costumes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CostumeItems"/>
+        <Class IRI="#DressBride"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CostumeItems"/>
+        <Class IRI="#DressGroom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DecorCharges"/>
+        <Class IRI="#DecorOrganizer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EventDay"/>
+        <Class IRI="http://schema.org/Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FoodItems"/>
+        <Class IRI="http://schema.org/Menu"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HotelCharges"/>
+        <Class IRI="#WeddingCharges"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Includes"/>
+        <Class IRI="http://schema.org/Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Includes"/>
+        <Class IRI="#Costumes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NikahCharges"/>
+        <Class IRI="#WeddingCharges"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NikahVenue"/>
+        <Class IRI="#Masjid"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PerformanceCharges"/>
+        <Class IRI="#Performances"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PlannerCharges"/>
+        <Class IRI="#WeddingPlanner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Profession"/>
+        <Class IRI="#GuestOfHonor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Properties"/>
+        <Class IRI="http://schema.org/Menu"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SingingCharges"/>
+        <Class IRI="#Singers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Photo/VideographyCharges"/>
+        <Class IRI="#PhotoStudio"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Amount"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CostumeColor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CostumeItems"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DecorCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EventDay"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FoodItems"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HotelCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Includes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NikahCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NikahVenue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PerformanceCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PlannerCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Profession"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Properties"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SingingCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Photo/VideographyCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Adopted</IRI>
+        <Literal xml:lang="en">Wedding planner adopted wedding theme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AreDesignedBy</IRI>
+        <Literal xml:lang="en">Costumes are designed by dress designer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasSubEvents</IRI>
+        <Literal xml:lang="en">Wedding Event has sub events pre wedding rituals, prewedding events, wedding ceremony and post wedding events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasVariety</IRI>
+        <Literal xml:lang="en">Food service has variey Food service styles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvitedIn</IRI>
+        <Literal xml:lang="en">Music band is invited in Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsDaughterOf</IRI>
+        <Literal xml:lang="en">Bride is daugher of bride family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsDoneBy</IRI>
+        <Literal xml:lang="en">Photography is done by photographer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsGiftedTo</IRI>
+        <Literal xml:lang="en">Mehr is gifted to bride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsGivenAt</IRI>
+        <Literal xml:lang="en">Ring is given at mangni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsGivenBy</IRI>
+        <Literal xml:lang="en">Dowry is givent by Bride family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsSonOf</IRI>
+        <Literal xml:lang="en">Groom is son of groom family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Organized</IRI>
+        <Literal xml:lang="en">FoodAndCateringCompany  organized menu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PaidBy</IRI>
+        <Literal xml:lang="en">Wedding charges paid by Grrom family and bride family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PaidTo</IRI>
+        <Literal xml:lang="en">Wedding charges paid to person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pays</IRI>
+        <Literal xml:lang="en">Grooms pays mehr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PerformedBy</IRI>
+        <Literal xml:lang="en">Performances performed by performers and singers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlannedBy</IRI>
+        <Literal xml:lang="en">Event planned by wedding planner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PresentedBy</IRI>
+        <Literal xml:lang="en">Bari presented by Groom family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provides</IRI>
+        <Literal xml:lang="en">Food service provides food serving styles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wears</IRI>
+        <Literal xml:lang="en">Person, Bride and Groom wears Costumes</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
